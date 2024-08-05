@@ -1,0 +1,8 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+shift+p",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": { "text": "git add .; if ($?) { git commit -m 'fix' }; if ($?) { git push }\n" }
+    }
+]
